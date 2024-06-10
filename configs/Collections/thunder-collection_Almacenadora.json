@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Almacenadora",
+    "dateExported": "2024-04-25T05:33:19.051Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "de381a04-6444-46f2-bffd-28b4d49f44a6",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-04-25T04:39:36.722Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6754c45b-307c-415c-91f0-ee4d4d7245e6",
+            "colId": "68f12d76-a80b-4b4e-bd9e-e5f697d23219",
+            "containerId": "de381a04-6444-46f2-bffd-28b4d49f44a6",
+            "name": "List",
+            "url": "localhost:8080/almacenadora/v1/users/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-25T04:39:43.769Z",
+            "modified": "2024-04-25T04:56:14.448Z",
+            "headers": []
+        },
+        {
+            "_id": "39e42b59-6023-4f7a-abd8-b97f600a8e97",
+            "colId": "68f12d76-a80b-4b4e-bd9e-e5f697d23219",
+            "containerId": "de381a04-6444-46f2-bffd-28b4d49f44a6",
+            "name": "createUser",
+            "url": "localhost:8080/almacenadora/v1/users/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-04-25T04:59:27.032Z",
+            "modified": "2024-04-25T05:29:26.654Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\":\"Urielss\",\n  \"lastName\":\"Sanchessz\",\n  \"userName\":\"asanchezss\",\n  \"password\":\"123456\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "5713ba37-bf9f-4fd1-99fd-e14dddbefbfa",
+            "colId": "68f12d76-a80b-4b4e-bd9e-e5f697d23219",
+            "containerId": "de381a04-6444-46f2-bffd-28b4d49f44a6",
+            "name": "updateUser",
+            "url": "localhost:8080/almacenadora/v1/users/6629e34c3ae426cac577e600",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-04-25T05:07:22.560Z",
+            "modified": "2024-04-25T05:27:20.049Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\":\"Anderson\",\n  \"lastName\":\"Rogel\",\n  \"userName\":\"aRogel\",\n  \"newPassword\":\"123456\"\n }",
+                "form": []
+            }
+        },
+        {
+            "_id": "24c797fd-5629-4392-8fde-e1039b788ff5",
+            "colId": "68f12d76-a80b-4b4e-bd9e-e5f697d23219",
+            "containerId": "de381a04-6444-46f2-bffd-28b4d49f44a6",
+            "name": "deleteUser",
+            "url": "localhost:8080/almacenadora/v1/users/6629e34c3ae426cac577e600",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-04-25T05:16:44.977Z",
+            "modified": "2024-04-25T05:27:38.760Z",
+            "headers": []
+        }
+    ]
+}
